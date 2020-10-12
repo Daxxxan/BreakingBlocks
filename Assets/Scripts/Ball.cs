@@ -32,9 +32,7 @@ public class Ball : MonoBehaviour
     }
 
     private void LaunchOnMouseClick() {
-        Debug.Log("Im on Launch the ball");
         if(Input.GetMouseButtonDown(0)) {
-            Debug.Log("I launch the ball");
             hasStarted = true;
             GetComponent<Rigidbody2D>().velocity = new Vector2(xPush , yPush);
         }

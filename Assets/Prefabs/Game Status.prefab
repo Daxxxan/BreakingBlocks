@@ -45,9 +45,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameSpeed: 1
-  scoreToAddPerBlockDestroy: 50
+  scoreToAddPerBlockDestroy: 65
   score: 0
   scoreText: {fileID: 6719550584999694209}
+  isAutoPlayEnabled: 0
 --- !u!1001 &6719550585869791980
 PrefabInstance:
   m_ObjectHideFlags: 0
